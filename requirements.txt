@@ -1,5 +1,14 @@
+jupyter
 voila
-fastai2>=0.0.16
 pillow<7
 packaging
+fastai2>=0.0.11
+graphviz
 ipywidgets==7.5.1
+matplotlib
+nbdev>=0.2.12
+pandas
+scikit_learn
+azure-cognitiveservices-search-imagesearch
+sentencepiece
+fastprogress>=0.1.22
