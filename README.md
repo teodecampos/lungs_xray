@@ -1,7 +1,7 @@
 # Lungs X-ray classifier
 by [Teo de Campos](https://cic.unb.br/~teodecampos/)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teodecampos/lungs_xray/master?filepath=lungsXray_classifier.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teodecampos/lungs_xray/master?filepath=%2Fvoila%2Frender%2FlungsXray_classifier.ipynb)
 
 This is just a **toy experiment** to see how to deploy a [Fast.AI](https://www.fast.ai/) model with Voilà.
 
