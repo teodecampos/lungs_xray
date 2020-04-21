@@ -1,6 +1,8 @@
 # Lungs X-ray classifier
 by [Teo de Campos](https://cic.unb.br/~teodecampos/)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teodecampos/lungs_xray/master?filepath=lungsXray_classifier.ipynb)
+
 This is just a **toy experiment** to see how to deploy a [Fast.AI](https://www.fast.ai/) model with Voilà.
 
 I used a [ResNet34](https://arxiv.org/abs/1512.03385) model pre-trained on [ImageNet classifier](http://www.image-net.org/) which was adapted (through "transfer learning") for a small set of images downloaded using [Microsoft Bing Internet Search API](https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/). 
