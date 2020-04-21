@@ -16,8 +16,10 @@ To build this toy dataset for fine tuning, I used the following search terms (ea
 
 Obviously some labels actually refer to the same class. The class "selfie" is my background class, i.e., it's expected that a sample that does not contain an X-ray image of the lung will be classified as "selfie".
 
-A total of 1134 images were obtained, of which 80% was used for training and the remaining for validation. Fine tuning was done for 10 epochs, giving the results below (which, as you can see, are not great):
+A total of 1134 images were obtained, of which 80% was used for training and the remaining for validation. Fine tuning was done for 10 epochs, giving the error rate of 41.55% and confusion matrix below:
 
-![Confusion matrix](conf_matrix.png)
+![Confusion matrix](conf_matrix_ResNet18_224px.png)
 
-**The training set was not curated**, I just used whatever Bing Search gave, i.e., **this is NOT a serious experiments for CoVid-19 detection**. A decent work with proper training is being developed by my colleague [Flavio Vidal](https://cic.unb.br/~fbvidal/) and his team, see [Projeto XRAI at https://x-rai.redes.unb.br/](https://x-rai.redes.unb.br/).
+Even if classes with the same meaning are grouped, this is clearly **not** a great result, so it illustrates how challenging this problem is, particularly when dealing with a small and noisy dataset. **The training set was not curated**, I just used whatever Bing Search gave, i.e., **this is NOT a serious experiments for CoVid-19 detection**. 
+
+A decent work with proper training samples labeled by experts is being developed by my colleague [Flavio Vidal](https://cic.unb.br/~fbvidal/) and his team, see [Projeto XRAI at https://x-rai.redes.unb.br/](https://x-rai.redes.unb.br/).
