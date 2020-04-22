@@ -19,7 +19,7 @@ To build this toy dataset for fine tuning, I used the following search terms (ea
 
 Obviously some labels actually refer to the same class. The class "selfie" is my background class, i.e., it's expected that a sample that does not contain an X-ray image of the lung will be classified as "selfie".
 
-A total of 1134 images were obtained, of which 80% was used for training and the remaining for validation. Fine tuning was done for 10 epochs, giving the error rate of 41.55% and confusion matrix below:
+A total of 1134 images were obtained, of which 80% was used for training and the remaining for validation. Fine tuning was done with batch size of 64 samples, for 10 epochs, giving the error rate of 40.97% and confusion matrix below:
 
 ![Confusion matrix](conf_matrix_ResNet18_224px.png)
 
